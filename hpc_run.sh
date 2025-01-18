@@ -1,6 +1,6 @@
-!/bin/bash
+#!/bin/bash
 
-#SBATCH --job-name=[your job name]    # 你的任务名，可以随意改
+#SBATCH --job-name=hpc_test           # 你的任务名，可以随意改
 #SBATCH --partition=64c512g           # 目标分区，思源1号就用 64c512g
 #SBATCH -n 40                         # 需求的核数。需要按需取自定，重要
 #SBATCH --ntasks-per-node=64          # 单个节点的核数。如果用思源1号就用64
